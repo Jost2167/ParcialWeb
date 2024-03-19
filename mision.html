@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6"><span class="text-white">&copy;JStiven</span>2000</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand"><span class="text-primary">JStiven</span>2000</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Sign Up</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="container mx-auto mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/about.jpg" class="img-fluid" alt="Imagen Izquierda">
+            </div>
+            <div class="col-md-6">
+                <h2>Nuestra Misión</h2>
+                <p id="textoCambiar">En nuestra empresa de reparación de vehículos, nos dedicamos apasionadamente a mantener a nuestros clientes en movimiento. Nos enorgullecemos de ser una organización comprometida con la excelencia y la innovación en cada paso que damos. Nuestra misión es simple pero poderosa: proporcionar soluciones efectivas y creativas que no solo restauren la funcionalidad de los vehículos, sino que también impulsen el éxito y la satisfacción de nuestros clientes, al tiempo que promovemos un cambio positivo en el mundo.</p>
+                <div class="mt-4">
+                    <button onclick="cambiarTamaño()" class="btn btn-primary mr-2">Cambiar tamaño de letra</button>
+                    <button onclick="cambiarColor()" class="btn btn-secondary">Cambiar color de letra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>
